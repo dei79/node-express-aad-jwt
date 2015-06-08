@@ -1,0 +1,50 @@
+{
+  "name": "express-aad-jwt",
+  "version": "0.1.0",
+  "description": "AAD JWT authentication middleware.",
+  "keywords": [
+    "auth",
+    "authn",
+    "authentication",
+    "authz",
+    "authorization",
+    "http",
+    "jwt",
+    "token",
+    "oauth",
+    "express",
+    "aad",
+    "azure"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dei79/node-express-aad-jwt.git"
+  },
+  "bugs": {
+    "url": "http://github.com/dei79/node-express-aad-jwt/issues"
+  },
+  "author": {
+    "name": "Dirk Eisenberg",
+    "email": "dirk.eisenberg@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "express-unless": "0.0.0",
+    "jsonwebtoken": "^5.0.0"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+}
