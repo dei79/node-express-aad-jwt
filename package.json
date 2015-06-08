@@ -1,6 +1,6 @@
 {
   "name": "express-aad-jwt",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "AAD JWT authentication middleware.",
   "keywords": [
     "auth",
