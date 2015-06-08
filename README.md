@@ -30,11 +30,10 @@ app.get('/protected',
   });
 ```
 
-You can specify audience and/or issuer as well:
+You can specify audience as well:
 
 ```javascript
-jwt(audience: 'http://myapi/protected',
-    issuer: 'http://issuer' })
+jwt(audience: 'https://graph.windows.net'})
 ```
 
 > If the JWT has an expiration (`exp`), it will be checked.
